@@ -11,7 +11,6 @@ console.log(join(__dirname, 'views'));
 // Configuración de vistas y motor de plantillas
 app.set('views', join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.get('/', (req, res) => res.render('index')) 
 
 // Middleware y rutas
 app.use(router);

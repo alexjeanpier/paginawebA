@@ -1,0 +1,10 @@
+.navigation {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+.navigation li {
+    list-style: none;
+    position: relative;
+}
